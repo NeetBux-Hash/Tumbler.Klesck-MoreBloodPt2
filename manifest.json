@@ -1,9 +1,91 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"version": "2.3.4",
+	"id": "Klesck.MoreBlood2",
+	"name": "More Blood Part 2",
+	"description": "A selection of increased blood options on the environment from gunshots. Default 'More Blood' is recommended unless you want it to get silly. Load after Revolver mod if using the add-on version",
+	"authors": ["Klesck", "Tumbler"],
+	"frameworkVersion": "2.0.0",
+	"options": [
+		{
+			"group": "Blood Amount",
+			"name": "More Blood",
+			"tooltip": "Roughly doubles the size of blood textures on the environment.",
+			"enabledByDefault": true,
+			"type": "select",
+			"contentFolders": ["content-2x"]
+		},
+		{
+			"group": "Blood Amount",
+			"name": "Even More Blood",
+			"tooltip": "Roughly quadruples the size of blood textures on the environment. It's excessive.",
+			"type": "select",
+			"contentFolders": ["content-4x"]
+		},
+		{
+			"group": "Blood Amount",
+			"name": "Insane Blood",
+			"tooltip": "Roughly... octuples(?) the size of blood textures on the environment. Past this pont I think there's more blood than a human contains.",
+			"type": "select",
+			"contentFolders": ["content-8x"]
+		},
+		{
+			"group": "Blood Amount",
+			"name": "Actually Ridiculous Blood",
+			"tooltip": "Roughly paints an entire surface and makes no sense oh no.",
+			"type": "select",
+			"contentFolders": ["content-Ridiculous"]
+		},
+		{
+			"group": "Blood Amount",
+			"name": "Overdrawn at the Bloodbank",
+			"tooltip": "*NOT RECOMMENDED* UNSTABLE - Roughly laughs in the face of god and bathes in endless red.",
+			"type": "select",
+			"contentFolders": ["content-Overdrawn"]
+		},
+
+		{
+			"group": "Revolver Add-On Version",
+			"name": "None",
+			"tooltip": "If you dont have or can't use the addon version.",
+			"type": "select",
+			"contentFolders": []
+		},
+
+		{
+			"group": "Revolver Add-On Version",
+			"name": "More Blood",
+			"tooltip": "Roughly doubles the size of blood textures on the environment.",
+			"enabledByDefault": true,
+			"type": "select",
+			"contentFolders": ["Revolver Blood/content2"]
+		},
+		{
+			"group": "Revolver Add-On Version",
+			"name": "Even More Blood",
+			"tooltip": "Roughly quadruples the size of blood textures on the environment. It's excessive.",
+			"type": "select",
+			"contentFolders": ["Revolver Blood/content4"]
+		},
+		{
+			"group": "Revolver Add-On Version",
+			"name": "Insane Blood",
+			"tooltip": "Roughly... octuples(?) the size of blood textures on the environment. Past this pont I think there's more blood than a human contains.",
+			"type": "select",
+			"contentFolders": ["Revolver Blood/content8"]
+		},
+		{
+			"group": "Revolver Add-On Version",
+			"name": "Actually Ridiculous Blood",
+			"tooltip": "Roughly paints an entire surface and makes no sense oh no.",
+			"type": "select",
+			"contentFolders": ["Revolver Blood/contentRid"]
+		},
+		{
+			"group": "Revolver Add-On Version",
+			"name": "Overdrawn at the Bloodbank",
+			"tooltip": "*NOT RECOMMENDED* UNSTABLE - Roughly laughs in the face of god and bathes in endless red.",
+			"type": "select",
+			"contentFolders": ["Revolver Blood/contentOver"]
+		}
+	]
 }
