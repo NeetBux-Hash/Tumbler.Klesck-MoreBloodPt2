@@ -1,10 +1,10 @@
 {
-	"version": "2.3.4",
+	"version": "0.3.0",
 	"id": "Klesck.MoreBlood2",
 	"name": "More Blood Part 2",
 	"description": "A selection of increased blood options on the environment from gunshots. Default 'More Blood' is recommended unless you want it to get silly. Load after Revolver mod if using the add-on version",
 	"authors": ["Klesck", "Tumbler"],
-	"frameworkVersion": "2.0.0",
+	"frameworkVersion": "2.33.20",
 	"options": [
 		{
 			"group": "Blood Amount",
@@ -42,7 +42,6 @@
 			"type": "select",
 			"contentFolders": ["content-Overdrawn"]
 		},
-
 		{
 			"group": "Revolver Add-On Version",
 			"name": "None",
@@ -50,7 +49,6 @@
 			"type": "select",
 			"contentFolders": []
 		},
-
 		{
 			"group": "Revolver Add-On Version",
 			"name": "More Blood",
@@ -87,6 +85,6 @@
 			"type": "select",
 			"contentFolders": ["Revolver Blood/contentOver"]
 		}
-	]
-
+	],
+	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Klesck-MoreBloodPt2/releases/latest/download/updates.json"
 }
