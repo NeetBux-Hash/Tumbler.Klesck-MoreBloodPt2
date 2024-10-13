@@ -45,7 +45,7 @@
 		{
 			"group": "Revolver Add-On Version",
 			"name": "None",
-			"tooltip": "If you dont have or can't use the addon version.",
+			"tooltip": "If you dont have or can't use the addon version. Don't select any option below if you don't have the add-on version isntalled or you won't be able to deploy",
 			"type": "select",
 			"contentFolders": []
 		},
