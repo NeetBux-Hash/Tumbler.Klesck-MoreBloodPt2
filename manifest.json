@@ -46,7 +46,7 @@
 			"group": "Revolver Add-On Version",
 			"name": "None",
 			"tooltip": "If you dont have or can't use the addon version. [WARNING] Don't select any option below if you don't have the add-on version isntalled or you won't be able to deploy",
-
+			"enabledByDefault": true,
 			"type": "select",
 			"contentFolders": []
 		},
@@ -54,7 +54,7 @@
 			"group": "Revolver Add-On Version",
 			"name": "More Blood",
 			"tooltip": "Roughly doubles the size of blood textures on the environment.",
-			"enabledByDefault": true,
+			"enabledByDefault": false,
 			"type": "select",
 			"contentFolders": ["Revolver Blood/content2"]
 		},
@@ -63,6 +63,7 @@
 			"name": "Even More Blood",
 			"tooltip": "Roughly quadruples the size of blood textures on the environment. It's excessive.",
 			"type": "select",
+			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/content4"]
 		},
 		{
@@ -70,6 +71,7 @@
 			"name": "Insane Blood",
 			"tooltip": "Roughly... octuples(?) the size of blood textures on the environment. Past this pont I think there's more blood than a human contains.",
 			"type": "select",
+			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/content8"]
 		},
 		{
@@ -77,6 +79,7 @@
 			"name": "Actually Ridiculous Blood",
 			"tooltip": "Roughly paints an entire surface and makes no sense oh no.",
 			"type": "select",
+			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/contentRid"]
 		},
 		{
@@ -84,6 +87,7 @@
 			"name": "Overdrawn at the Bloodbank",
 			"tooltip": "*NOT RECOMMENDED* UNSTABLE - Roughly laughs in the face of god and bathes in endless red.",
 			"type": "select",
+			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/contentOver"]
 		}
 	],
