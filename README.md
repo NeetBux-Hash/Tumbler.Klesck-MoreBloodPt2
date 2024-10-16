@@ -6,4 +6,4 @@ A selection of increased blood options on the environment from gunshots. Default
 
 ---
 
-`Klesck.MoreBlood2` v0.4.0, by Klesck, Tumbler. This README was automatically generated from the mod's manifest.
+`Klesck.MoreBlood2` v0.4.1, by Klesck, Tumbler. This README was automatically generated from the mod's manifest.
