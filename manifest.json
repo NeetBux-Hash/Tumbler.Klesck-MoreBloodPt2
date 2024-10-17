@@ -5,6 +5,7 @@
 	"description": "A selection of increased blood options on the environment from gunshots. Default 'More Blood' is recommended unless you want it to get silly. Load after Revolver mod if using the add-on version",
 	"authors": ["Klesck", "Tumbler"],
 	"frameworkVersion": "2.33.20",
+	"loadAfter": ["invalid.44magnum"],
 	"options": [
 		{
 			"group": "Blood Amount",
@@ -45,7 +46,7 @@
 		{
 			"group": "Revolver Add-On Version",
 			"name": "None",
-			"tooltip": "If you dont have or can't use the addon version. [WARNING] Don't select any option below if you don't have the add-on version isntalled or you won't be able to deploy",
+			"tooltip": "If you don't have the addon version installed.",
 			"enabledByDefault": true,
 			"type": "select",
 			"contentFolders": []
@@ -56,7 +57,8 @@
 			"tooltip": "Roughly doubles the size of blood textures on the environment.",
 			"enabledByDefault": false,
 			"type": "select",
-			"contentFolders": ["Revolver Blood/content2"]
+			"contentFolders": ["Revolver Blood/content2"],
+			"requirements": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -64,7 +66,8 @@
 			"tooltip": "Roughly quadruples the size of blood textures on the environment. It's excessive.",
 			"type": "select",
 			"enabledByDefault": false,
-			"contentFolders": ["Revolver Blood/content4"]
+			"contentFolders": ["Revolver Blood/content4"],
+			"requirements": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -72,7 +75,8 @@
 			"tooltip": "Roughly... octuples(?) the size of blood textures on the environment. Past this pont I think there's more blood than a human contains.",
 			"type": "select",
 			"enabledByDefault": false,
-			"contentFolders": ["Revolver Blood/content8"]
+			"contentFolders": ["Revolver Blood/content8"],
+			"requirements": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -80,7 +84,8 @@
 			"tooltip": "Roughly paints an entire surface and makes no sense oh no.",
 			"type": "select",
 			"enabledByDefault": false,
-			"contentFolders": ["Revolver Blood/contentRid"]
+			"contentFolders": ["Revolver Blood/contentRid"],
+			"requirements": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -88,7 +93,8 @@
 			"tooltip": "*NOT RECOMMENDED* UNSTABLE - Roughly laughs in the face of god and bathes in endless red.",
 			"type": "select",
 			"enabledByDefault": false,
-			"contentFolders": ["Revolver Blood/contentOver"]
+			"contentFolders": ["Revolver Blood/contentOver"],
+			"requirements": ["invalid.44magnum"]
 		}
 	],
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Klesck-MoreBloodPt2/releases/latest/download/updates.json"
