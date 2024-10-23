@@ -106,7 +106,7 @@
 		},
 		{
 			"name": "Extended Blood lifetime",
-			"tooltip": "Extends the timer of blood pools dissapearing considerately",
+			"tooltip": "Extends the timer of blood pools and bullet holes dissapearing considerately",
 			"type": "checkbox",
 			"contentFolders": ["contenttime"]
 		}
