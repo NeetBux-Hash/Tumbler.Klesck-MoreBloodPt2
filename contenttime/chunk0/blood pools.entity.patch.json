@@ -1,0 +1,15 @@
+{
+	"tempHash": "002F644C072A1B86",
+	"tbluHash": "009C43427227A937",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0c20ab313f3e91aa",
+				{
+					"AddProperty": ["m_fExpirationFadeTime", { "type": "float32", "value": 9999 }]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

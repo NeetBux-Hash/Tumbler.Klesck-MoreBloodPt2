@@ -9,6 +9,14 @@
 	"options": [
 		{
 			"group": "Blood Amount",
+			"name": "None",
+			"tooltip": "Doesn't modify any blood ",
+			"enabledByDefault": false,
+			"type": "select",
+			"contentFolders": []
+		},
+		{
+			"group": "Blood Amount",
 			"name": "More Blood",
 			"tooltip": "Roughly doubles the size of blood textures on the environment.",
 			"enabledByDefault": true,
@@ -95,6 +103,12 @@
 			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/contentOver"],
 			"requirements": ["invalid.44magnum"]
+		},
+		{
+			"name": "Extended Blood lifetime",
+			"tooltip": "Extends the timer of blood pools dissapearing considerately",
+			"type": "checkbox",
+			"contentFolders": ["contenttime"]
 		}
 	],
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Klesck-MoreBloodPt2/releases/latest/download/updates.json"
