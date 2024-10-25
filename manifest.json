@@ -5,7 +5,6 @@
 	"description": "A selection of increased blood options on the environment from gunshots. Default 'More Blood' is recommended unless you want it to get silly. Load after Revolver mod if using the add-on version",
 	"authors": ["Klesck", "Tumbler"],
 	"frameworkVersion": "2.33.20",
-	"loadAfter": ["invalid.44magnum"],
 	"options": [
 		{
 			"group": "Blood Amount",
@@ -66,7 +65,8 @@
 			"enabledByDefault": false,
 			"type": "select",
 			"contentFolders": ["Revolver Blood/content2"],
-			"requirements": ["invalid.44magnum"]
+			"requirements": ["invalid.44magnum"],
+			"loadAfter": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -75,7 +75,8 @@
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/content4"],
-			"requirements": ["invalid.44magnum"]
+			"requirements": ["invalid.44magnum"],
+			"loadAfter": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -84,7 +85,8 @@
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/content8"],
-			"requirements": ["invalid.44magnum"]
+			"requirements": ["invalid.44magnum"],
+			"loadAfter": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -93,7 +95,8 @@
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/contentRid"],
-			"requirements": ["invalid.44magnum"]
+			"requirements": ["invalid.44magnum"],
+			"loadAfter": ["invalid.44magnum"]
 		},
 		{
 			"group": "Revolver Add-On Version",
@@ -102,7 +105,8 @@
 			"type": "select",
 			"enabledByDefault": false,
 			"contentFolders": ["Revolver Blood/contentOver"],
-			"requirements": ["invalid.44magnum"]
+			"requirements": ["invalid.44magnum"],
+			"loadAfter": ["invalid.44magnum"]
 		},
 		{
 			"name": "Extended Blood lifetime",
